@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quay số trúng thưởng</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="main">
+        
+       
+        <div style="display: flex; justify-content: center;
+        margin: 40px;"> 
+            <img src="./audio/logo.jpg" alt="" class="logo">
+            <h1 class="title">Quay số trúng thưởng</h1>
+            <img src="./audio/logo.jpg" alt="" class="logo">
+        </div>
+        <div class="container">
+            <div class="square" id="square1">0</div>
+            <div class="square" id="square2">0</div>
+            <div class="square" id="square3">0</div>
+        </div>
+            <button id="generate-button" class="btn btn-outline-warning">Quay số!</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <div class="notification-wrapper" id="notification-wrapper">
+        <div class="notification-content">
+            <h1>🎁Chúc mừng🎉</h1>
+            <h5>Số trúng thưởng là: </h5>
+            <h1 id="winner">244</h1>
+            <button id="close-button" class="btn btn-info">Đóng</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
